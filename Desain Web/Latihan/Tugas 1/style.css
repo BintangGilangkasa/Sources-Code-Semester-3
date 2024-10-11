@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+html {
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    height: 100vh;
+    background-image: url(Background\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.profile > img {
+    width: 150px;
+    height: 150px;
+    border: 3px;
+    border-radius: 100%;
+}
+
+.profile > p {
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: whitesmoke;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 25px;
+}
+
+.profile > q {
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 5px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.link > a {
+    text-decoration: none;
+    color: slateblue;
+    font-size: 24px;
+    text-align: center;
+    border: 3px solid wheat;
+    background-color: skyblue;
+    border: 3px;border-radius: 7px;
+    margin: 5px 10px;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: 100px;
+
+}
+
+.link>a:hover {
+    background-color: white;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer > i {
+    color: white;
+    font-size: 24px;
+    font-style: normal;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 10px;
+}
