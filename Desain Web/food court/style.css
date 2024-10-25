@@ -6,15 +6,17 @@
 }
 
 body {
-    background-color: #31374e;
-    color: #333;
+    background-image: url(image/apa\ iya\ 23.jpg);
 }
 
 header {
-    background-color: #3d4460;
+    background-color: rgb(rgb(31, 200, 242), rgb(21, 117, 242));
     color: white;
     padding: 20px;
     text-align: center;
+}
+.header nav{
+    padding-top: 100px;
 }
 
 h2, h3, p{
@@ -36,9 +38,12 @@ nav ul li a {
     text-decoration: none;
 }
 
+nav li{
+    margin-top: 10px;
+}
 
 .banner {
-    background-image: url(download.jpeg);
+    background-image: url(image/download.jpeg);
     background-size: cover;
     background-position: center;
     padding: 100px 0;
@@ -51,7 +56,10 @@ nav ul li a {
     color: #92feca;
 }
 
-
+.banner p{
+    font-size: 20px;
+    padding-top: 10px;
+}
 
 .menu-section {
     padding: 50px;
@@ -75,12 +83,14 @@ nav ul li a {
     border-radius: 15px;
 }
 
+.contact-us{
+    text-align: center;
+}
+
 footer {
-    background-color: #333;
-    color: white;
+    background-color: rgb(74, 164, 238);
     text-align: center;
     padding: 20px;
-    position: fixed;
     bottom: 0;
     width: 100%;
 }
