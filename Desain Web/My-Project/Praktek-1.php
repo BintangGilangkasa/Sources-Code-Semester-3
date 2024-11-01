@@ -9,6 +9,5 @@
 
     echo "Saldo akhir setelah ". $bulan." bulan adalah : Rp. ". $saldoakhir, "<br>";
 
-    echo "========================", "<br>";
-
+    echo "========================";
 ?>
