@@ -19,15 +19,16 @@
     $bagi = $a / $b;
 
 
-    echo ("Hasil penjumlahan a dan b adalah = $tambah <br>");
-    echo ("Hasil pengurangan a dan b adalah = $kurang<br>");
-    echo ("Hasil perkalian a dan b adalah = $kali <br>");
-    echo ("Hasil pembagian a dan b adalah = $bagi <br>");
+        echo ("Hasil penjumlahan a dan b adalah = $tambah <br>");
+        echo ("Hasil pengurangan a dan b adalah = $kurang<br>");
+        echo ("Hasil perkalian a dan b adalah = $kali <br>");
+        echo ("Hasil pembagian a dan b adalah = $bagi <br>");
+        echo ("");
     $nama = "UIN Salatiga";
     $garis= "=====================================";
-    echo "<p>";
-    echo $garis."<br>";
-    echo $komentar. " Di Lab ". $nama. "<br>Selamat Belajar Pemrograman
-    Web <br>";
-    echo $garis."<br>";
+        echo "<p>";
+        echo $garis."<br>";
+        echo $komentar. " Di Lab ". $nama. "<br>Selamat Belajar Pemrograman
+        Web <br>";
+        echo $garis."<br>";
 ?>
