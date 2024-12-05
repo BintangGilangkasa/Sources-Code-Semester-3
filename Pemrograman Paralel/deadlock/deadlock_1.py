@@ -1,8 +1,11 @@
+#Import Library
 import threading
 import time
 
+#Target Lock
 lock1 = threading.Lock()
 lock2 = threading.Lock()
+
 
 def thread1():
     with lock1:
